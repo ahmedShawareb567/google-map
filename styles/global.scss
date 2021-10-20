@@ -1,0 +1,27 @@
+@import "./fonts";
+@import "./bootstrap";
+@import "./utils";
+@import "./libs";
+@import "./components/Btn.scss";
+@import "./components/Input.scss";
+@import "./components/theHeader.scss";
+
+// pages
+@import "./pages/index";
+@import "./pages/login";
+// libs
+@import "./overide.scss";
+html {
+  scroll-behavior: smooth;
+  ::-moz-selection {
+    background: $secondary;
+  }
+
+  ::selection {
+    background: $secondary;
+  }
+  font-size: 16px;
+}
+body {
+  overflow: hidden;
+}
